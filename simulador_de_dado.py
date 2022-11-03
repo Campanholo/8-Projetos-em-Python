@@ -20,7 +20,7 @@ class SimuladorDeDado:
     def Iniciar(self):
 
         # Criar uma janela
-        self.janela = sg.Window('Simulador de dado', Layout = self.layout)
+        self.janela = sg.Window('Simulador de dado', layout = self.layout)
         # Ler os valores na tela
         self.eventos, self.valores = self.janela.Read()
         # Fazer algumas coisas com esses valores
